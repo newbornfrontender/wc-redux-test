@@ -11,5 +11,10 @@
     "start": "rollup -c -w",
     "build": "rollup -c",
     "dev": "serve public"
+  },
+  "dependencies": {
+    "@polymer/lit-element": "^0.6.5",
+    "pwa-helpers": "^0.9.0",
+    "redux": "^4.0.1"
   }
 }
