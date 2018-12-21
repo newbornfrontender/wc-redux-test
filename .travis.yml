@@ -13,5 +13,8 @@ before_script:
 script:
   - yarn build
 
-after_success:
-  - yarn deploy
+deploy:
+  provider: firebase
+  token:
+    secure: "$FIREBASE_TOKEN"
+  project: "wc-redux-test"
