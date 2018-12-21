@@ -1,15 +1,9 @@
 language: node_js
 node_js:
   - stable
-branches:
-  only:
-    - master
 before_script:
   - yarn global add firebase-tools
 script:
   - yarn build
-  - yarn
-deploy:
-  provider: firebase
-  token:
-    secure: '$FIREBASE_TOKEN'
+after_success:
+  - yarn deploy
