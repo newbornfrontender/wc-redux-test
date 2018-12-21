@@ -10,7 +10,8 @@
     "format": "prettier --write **/*.{html,js,json,md}",
     "start": "rollup -c -w",
     "build": "rollup -c",
-    "dev": "serve public"
+    "dev": "serve public",
+    "deploy": "firebase deploy --token \"$FIREBASE_TOKEN\""
   },
   "dependencies": {
     "@polymer/lit-element": "^0.6.5",
