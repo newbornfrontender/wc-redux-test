@@ -3,7 +3,7 @@ node_js:
   - stable
 before_script:
   - yarn global add firebase-tools
-script:
+before_deploy: 
   - yarn build
   - yarn deploy
 deploy:
