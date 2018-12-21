@@ -7,7 +7,7 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "format": "prettier --write **/*.{html,js,json,md}",
+    "format": "prettier --write **/*.{html,js,json,yml,md}",
     "start": "rollup -c -w",
     "build": "rollup -c",
     "dev": "serve public",
