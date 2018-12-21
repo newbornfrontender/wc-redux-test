@@ -11,7 +11,7 @@
     "start": "rollup -c -w",
     "build": "rollup -c",
     "dev": "serve public",
-    "deploy": "firebase deploy --token \"$FIREBASE_TOKEN\""
+    "deploy": "firebase deploy --token $FIREBASE_TOKEN"
   },
   "dependencies": {
     "@polymer/lit-element": "0.6.5",
