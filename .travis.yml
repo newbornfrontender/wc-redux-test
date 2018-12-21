@@ -4,10 +4,10 @@ node_js:
 before_script:
   - yarn global add firebase-tools
 script:
-  - yarn build && yarn deploy
+  - yarn build
+  - yarn deploy
 deploy:
   provider: firebase
   token:
     secure: "$FIREBASE_TOKEN"
   project: "wc-redux-test"
-  message: "Deploy site"
