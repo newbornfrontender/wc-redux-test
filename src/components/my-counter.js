@@ -15,6 +15,8 @@ class MyCounter extends connect(store)(LitElement) {
     const { counter } = this;
 
     return html`
+      <h1>Counter</h1>
+
       <p>Counter: ${counter}</p>
 
       <button @click="${() => store.dispatch(increment())}">Increment</button>
