@@ -1,0 +1,9 @@
+{
+  "name": "wc-redux-test",
+  "version": "1.0.0",
+  "description": "LitElement and Redux (Counter sample)",
+  "repository": "https://github.com/newbornfrontender/wc-redux-test.git",
+  "author": "Infant Frontender <newbornfrontender@gmail.com>",
+  "license": "MIT",
+  "private": true
+}
