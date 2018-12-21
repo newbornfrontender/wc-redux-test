@@ -5,7 +5,7 @@ before_script:
   - yarn global add firebase-tools
 script:
   - yarn build
-before_deploy:
+after_success:
   - yarn deploy
 deploy:
   provider: firebase
