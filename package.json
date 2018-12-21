@@ -16,5 +16,12 @@
     "@polymer/lit-element": "^0.6.5",
     "pwa-helpers": "^0.9.0",
     "redux": "^4.0.1"
+  },
+  "devDependencies": {
+    "del": "^3.0.0",
+    "prettier": "^1.15.3",
+    "rollup": "^0.68.1",
+    "rollup-plugin-node-resolve": "^4.0.0",
+    "terser": "^3.13.1"
   }
 }
