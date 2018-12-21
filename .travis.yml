@@ -3,6 +3,7 @@ node_js:
   - stable
 script:
   - yarn build
+  - yarn deploy
 deploy:
   provider: firebase
   token:
