@@ -1,14 +1,18 @@
 language: node_js
+
 node_js:
   - stable
+
+branches:
+  only:
+    - master
+
 before_script:
   - yarn global add firebase-tools
+  - yarn
+
 script:
   - yarn build
+
 after_success:
   - yarn deploy
-deploy:
-  provider: firebase
-  token:
-    secure: "$FIREBASE_TOKEN"
-  project: "wc-redux-test"
