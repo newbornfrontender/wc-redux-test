@@ -4,8 +4,7 @@ node_js:
 before_script:
   - yarn global add firebase-tools
 script:
-  - yarn build
-  - yarn deploy
+  - yarn build && yarn deploy
 deploy:
   provider: firebase
   token:
