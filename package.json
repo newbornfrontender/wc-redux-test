@@ -14,7 +14,7 @@
     "deploy": "firebase deploy --token $FIREBASE_TOKEN"
   },
   "dependencies": {
-    "@polymer/lit-element": "0.6.5",
+    "@polymer/lit-element": "0.7.1",
     "pwa-helpers": "0.9.0",
     "redux": "4.0.1"
   },
