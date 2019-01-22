@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@polymer/lit-element@0.6.5":
-  version "0.6.5"
-  resolved "https://registry.yarnpkg.com/@polymer/lit-element/-/lit-element-0.6.5.tgz#c614b9638a0809883ba52bf43fca5b6ed51b7aa8"
-  integrity sha512-KVjuU/5Ugp6PFob6YEe1/B4GCKjqhEy9Tj954shL6d3DohT2sNAmbX9QfbXvcZ8RhbVELK6dzbN3i2BRA3mOKg==
+"@polymer/lit-element@0.7.1":
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/@polymer/lit-element/-/lit-element-0.7.1.tgz#cded2d11ff4308f9ce3e4001d893198dabced639"
+  integrity sha512-aYSzVhC19l7xSm73aHI06VPcD/H+GxpFNZrhbJ+zVIpgAveOgGp5Ga7UtTBHQCdHlJbZ0dMlaBXMZ3twgXCokg==
   dependencies:
-    lit-html "^1.0.0-rc.1"
+    lit-html "^1.0.0-rc.2"
 
 "@types/estree@0.0.39":
   version "0.0.39"
@@ -151,10 +151,10 @@ is-path-inside@^1.0.0:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-4.0.0.tgz#19203fb59991df98e3a287050d4647cdeaf32499"
   integrity sha512-RdJUflcE3cUzKiMqQgsCu06FPu9UdIJO0beYbPhHN4k6apgJtifcoCtT9bcxOpYBtpD2kCM6Sbzg4CausW/PKQ==
 
-lit-html@^1.0.0-rc.1:
-  version "1.0.0-rc.1"
-  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-1.0.0-rc.1.tgz#a83d45ed86fc7c5d4612f3092e83fd095baf1fc3"
-  integrity sha512-Qyu+lHpRtJS3Addw56rK68KgZ5cdxTfRDmYNwd8gRQBImdhkE0uyqIT5usLE9YDezFeYVqgAc2WujOOi8taF1A==
+lit-html@^1.0.0-rc.2:
+  version "1.0.0-rc.2"
+  resolved "https://registry.yarnpkg.com/lit-html/-/lit-html-1.0.0-rc.2.tgz#b9c904520fe005d349aa737a86d83645d97d5a89"
+  integrity sha512-4bq34lhVmwWly1zBXicOBJLOwaWfjOVbchEEmFnZLuztxjh5wRd2WqV0URX8Q47MQ7PaIjn/eXyTRKsYhSAeRw==
 
 loose-envify@^1.4.0:
   version "1.4.0"
@@ -224,10 +224,10 @@ pinkie@^2.0.0:
   resolved "https://registry.yarnpkg.com/pinkie/-/pinkie-2.0.4.tgz#72556b80cfa0d48a974e80e77248e80ed4f7f870"
   integrity sha1-clVrgM+g1IqXToDnckjoDtT3+HA=
 
-prettier@1.15.3:
-  version "1.15.3"
-  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.15.3.tgz#1feaac5bdd181237b54dbe65d874e02a1472786a"
-  integrity sha512-gAU9AGAPMaKb3NNSUUuhhFAS7SCO4ALTN4nRIn6PJ075Qd28Yn2Ig2ahEJWdJwJmlEBTUfC7mMUSFy8MwsOCfg==
+prettier@1.16.0:
+  version "1.16.0"
+  resolved "https://registry.yarnpkg.com/prettier/-/prettier-1.16.0.tgz#104dd25f5ee3d0c9d0a6ce4bb40ced8481d51219"
+  integrity sha512-MCBCYeAuZfejUPdEpkleLWvpRBwLii/Sp5jQs0eb8Ul/drGIDjkL6tAU24tk6yCGf0KPV5rhPPPlczfBmN2pWQ==
 
 pwa-helpers@0.9.0:
   version "0.9.0"
