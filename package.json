@@ -16,7 +16,7 @@
   "dependencies": {
     "@polymer/lit-element": "0.7.1",
     "pwa-helpers": "0.9.1",
-    "redux": "4.0.1"
+    "redux": "4.0.4"
   },
   "devDependencies": {
     "del": "4.1.1",
