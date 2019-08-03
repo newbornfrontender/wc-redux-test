@@ -22,7 +22,7 @@
     "del": "4.1.1",
     "prettier": "1.17.0",
     "rollup": "1.18.0",
-    "rollup-plugin-node-resolve": "4.2.4",
+    "rollup-plugin-node-resolve": "5.2.0",
     "terser": "3.17.0"
   }
 }
